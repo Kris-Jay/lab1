@@ -1,7 +1,8 @@
-body, h1, h4, div, p, ul, button {
+body, h1, h4, div, p, ul, button, .footer {
     margin: 0;
     padding: 0;
-    font-family:'Open Sans', sans-serif; ;
+    font-family:'Open Sans', sans-serif;
+    width: auto; 
 }
 
 body {
@@ -9,7 +10,7 @@ body {
 }
 
 .header {
-    padding: 10px;
+    padding: 20px;    
 }
 
 p {
@@ -21,6 +22,11 @@ p {
 
 h1 {
     padding: 20px;
+    font-size: 40px;
+}
+
+.call {
+    width: 98%;
 }
 
 h4 {
@@ -37,6 +43,7 @@ a {
 ul {
     list-style-type: none;
     color: #69696a;
+    font-weight: bold;
 }
 
 li {
@@ -51,4 +58,31 @@ li {
     margin: 10px;
     border-radius: 50px;
     border: none;
+    font-family:'Open Sans', sans-serif; 
+    font-size: large;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgba(247, 193, 162, 0.7) ;
+    padding: 10px; 
+    padding-left: 20px;   
+}
+
+.left-footer {
+    color: #000;
+    font-weight: bold;
+    position: absolute;
+}
+
+.right-footer {
+    float: right;
+    color: #69696a;
+    width: 23%;
+    font-weight: bold;
+    word-spacing: 5px;
+    padding-right: 20px;
 }

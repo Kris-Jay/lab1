@@ -66,7 +66,7 @@ li {
     font-size: large;
 }
 
-.footer {
+footer {
     position: fixed;
     left: 0;
     bottom: 0;
@@ -82,7 +82,7 @@ li {
     position: absolute;
 }
 
-.right-footer {
+nav {
     float: right;
     color: #69696a;
     width: 25%;
